@@ -63,10 +63,7 @@ public class Arithmetic{
     totalCostpurchases=sockCost$*3+taxCostsocks$+glassCost$*6+taxCostglasses$+envelopeCost$+taxCostenvelopes$; //total cost of purchases with tax
     
     System.out.println("The total cost (including tax) of purchases totals to $" + (int) (totalCostpurchases*100)/(100.0)); //statemtn for total cost with tax
-    
-    
-        
   
     
-    }
-}
+    } //end of main method
+} //end of class
