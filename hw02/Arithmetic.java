@@ -2,7 +2,7 @@
 //Arithmetic 
 //HW02
 //September 9, 2014
-//This program will "....."
+//This program will calculate total cost of various items before and after tax.
 
 //  define a class
 public class Arithmetic{
