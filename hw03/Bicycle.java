@@ -3,7 +3,7 @@
 //Hw 03 Bicycle
 //September 17, 2014
 //CSE02 with Professor Brain Chen
-//WRITE This program...
+//This program calculates distance traveled during a certain time interval. The information of number of seconds and number of counts are requested from the user, and the program using that information to calculatethe distance, time, and average mph.
 
 // statement needed for a scanner to be functional
     import java.util.Scanner;
