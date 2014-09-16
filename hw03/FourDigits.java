@@ -27,6 +27,5 @@ public class FourDigits{
     System.out.print((((int)(((double)(x)%((int)(x)))*1000)))%10); // extracts digit from 1000s place
     System.out.print((((int)(((double)(x)%((int)(x)))*10000)))%10); //extracts digit from 10000s place
     
-// 
     } //end main method
 } //end of class
