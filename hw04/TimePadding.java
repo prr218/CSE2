@@ -31,12 +31,18 @@ public class TimePadding {
                 hours = (seconds/3600);
                 seconds = (seconds-(hours*3600));
             
-        }
+                }//end of if statement
                 
                 int minutes = seconds/60;
                 seconds=(seconds-(minutes)*60);
                 
-                System.out.print("The time is "+hours+":");
+                System.out.print("The time is ");
+                if(hours>12){ //hours if greater than 12 (because we wouldn't want to see the time as 25 hours...)
+                    System.out.print(hours%12+":");
+                }//end of if statement
+                else if(hours<13){//hours if less than 13
+                    System.out.print(hours+":");
+                }//end of else if
                 if(minutes<10){
                     System.out.print("0"+minutes+":"); //calculating minutes if less than 10 minutes
                 }//end else if
